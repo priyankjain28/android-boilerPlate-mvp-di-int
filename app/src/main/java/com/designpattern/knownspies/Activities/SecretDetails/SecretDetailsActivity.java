@@ -1,6 +1,5 @@
 package com.designpattern.knownspies.Activities.SecretDetails;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -8,7 +7,6 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.designpattern.knownspies.Activities.SpyList.SpyListActivity;
 import com.designpattern.knownspies.Coordinators.RootCoordinator;
 import com.designpattern.knownspies.Dependencies.DependencyRegistry;
 import com.designpattern.knownspies.R;
@@ -43,7 +41,7 @@ public class SecretDetailsActivity extends AppCompatActivity {
 
     }
 
-    //region Helper Methods
+    //region Helper Methods for UI
 
     private void attachUI() {
         progressBar    = (ProgressBar) findViewById(R.id.secret_progress_bar);
